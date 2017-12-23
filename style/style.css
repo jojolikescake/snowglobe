@@ -1,0 +1,44 @@
+body {
+  background-color: midnightblue;
+}
+
+canvas {
+  height: 100%;
+  left: 0;
+  position: inherit;
+  top: 0;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.halfCircle{
+     height:500px;
+     width:500px;
+     border-radius: 500px 500px 0 0;
+     background:grey;
+     clip-path: circle()
+}
+
+.base {
+  width:500px;
+  background-color: saddlebrown;
+  height:100px;
+  position:relative;
+  bottom:90px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-style: groove;
+  border-radius: 20px 20px 0 0;
+
+}
+
+button {
+  border-radius: 20px
+}
