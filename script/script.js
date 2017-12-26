@@ -1,4 +1,15 @@
-//
+buttons = document.querySelectorAll('button')
+image = document.querySelector('img')
+
+buttons[0].addEventListener('click', changeimage)
+
+function changeimage(event){
+  image.setAttribute('src','images/tree2.gif')
+ image.style.top = '130px'
+}
+
+
+//snowflakes 
 
 'use strict'
 
